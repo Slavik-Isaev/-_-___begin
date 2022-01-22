@@ -13,6 +13,9 @@ body {
     background-image: url('../img/фон_для_header.png');
     background-repeat: no-repeat;
 }
+td {
+    background-color: goldenrod;
+}
 
 
 /* HEADER - start */
