@@ -9,31 +9,180 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="home">
+
+
+    <header>
+
         <div class="container">
             <div class="head">
                 <nav>
                     <ul class="nav">
                         <li><a href="#home">главная</a></li>
-                        <li><a href="">о театре</a></li>
-                        <li><a href="">наши постановки</a></li>
-                        <li><a href="">партнеры театра</a></li>
-                        <li><a href="">контакты</a></li>
+                        <li><a href="#about">о театре</a></li>
+                        <li><a href="#production">наши постановки</a></li>
+                        <li><a href="#partner">партнеры театра</a></li>
+                        <li><a href="#maecenas">контакты</a></li>
                     </ul>
                 </nav>
                 <button class="head__phone">+7 495 123-45-67</button>
             </div>
-            <section>
-
-            </section>
         </div>
+
     </header>
+
 
     <main>
 
+        <section id="home" class="home">
+            <div class="container">
+                <div class="home__wrap">
+                    <div class="about__content">
+                        <h1>Большой театр</h1>
+                        <p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+                        <button>афиша</button>
+                    </div>
+                    <div class="about__sider">
+                        <div class="slider">
+                            <!-- sliders -->
+                            <!-- на макете показан только один слайдер -->
+                        </div>
+                        <div class="slider__button">
+                            <button>пред</button>
+                            <button>след</button>
+                            <!-- добавить стрелки через ::after и ::before -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__wrap">
+                    <h2>о театре</h2>
+                    <div class="about__content">
+                        <div class="content__text">
+                            <h3>Самый лучший театр СПБ</h3>
+                            <p>Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+                        </div>
+                        <div class="content__number">
+                            <h3>немного о цифрах</h3>
+                            <div class="place">
+                                <p>1600 посадочный мест</p>
+                            </div>
+                            <div class="history">
+                                <p>350 лет истории</p>
+                            </div>
+                        </div>
+                        <img src="./img/о_театре.png" alt="большой_театр">
+                        <!-- запасной вариант
+                             <div class="content__pictur">
+                            <img src="./img/о_театре.png" alt="большой_театр">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="production" class="production">
+            <div class="container">
+                <div class="production__wrap">
+                    <div class="productoin__main">
+                        <h2>наши постановки</h2>
+                        <div class="production__scrol">
+                            <!-- scrol -->
+                        </div>
+                    </div>
+                    <div class="production__sence">
+                        <ul>
+                            <li>2018</li>
+                            <li>2019</li>
+                            <li>2020</li>
+                        </ul>
+                        <div class="sence__desc">
+                            <div class="desc__stars">
+                                <!-- icon stars -->
+                            </div>
+                            <p>Лучший театр
+                                по мнению театральных критиков Парижа</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partner" class="partner">
+            <div class="container">
+                <div class="partner__wrap">
+                    <h2>партнеры театра</h2>
+                    <table>
+                        <tr>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                            <td><img src="./img/icon/logo_газпром.png" alt="газпром"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="maecenas" class="maecenas">
+            <div class="container">
+                <div class="maecenas__wrap">
+                    <h2>стать меценатом</h2>
+                    <div class="maecenas__content">
+                        <ul class="maecenas__content__list">
+                            <li class="content__list__phone">+7 (812) 123-45-55</li>
+                            <li class="content__list__phone">+7 (812) 123-45-66</li>
+                            <li class="content__list__info">info@theater.ru</li>
+                            <li class="content__list__place">г. санкт-петербург, невский 140</li>
+                        </ul>
+                        <div class="maecerans__register">
+                            <div class="maecerans__register--top">
+                                <table>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="maecerans__register--bottom">
+                                <div class="maecerans__register__info">
+                                    <p>* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+                                    <button class="maecerans__register__button">отправить</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+
     <footer>
-        
+        <div class="container">
+            <div class="footer__wrap">
+                <p>(с) Все права защищены. Большой театр. 2020</p>
+                <p>Разработано d-e-n.ru</p>
+            </div>
+        </div>
     </footer>
+
+
 </body>
 </html>

@@ -6,54 +6,24 @@
     margin: 0 auto;
     padding: 0 15px;
 }
-h1 ,h2 ,h3 ,p ,a ,ul ,button {
-    font-family: 'Open Sans Condensed', 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    list-style-type: none;
+body {
+    background-color: #333333;
 }
+.home {
+    background-image: url('../img/фон_для_header.png');
+    background-repeat: no-repeat;
+}
+
 
 /* HEADER - start */
 
-header {
-    background-image: url('../img/фон_для_header.png');
-    max-width: 100%;
-    max-height: 1045px;
-    background-repeat: no-repeat;    
-}
-.head {
-    display: flex;
-    justify-content: space-between;
-}
-nav {
-    max-width: 824px;
-    width: 100%;
-}
-ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
-li {
-    text-decoration: none;
-}
-a {
-    font-weight: bold;
-    font-size: 18px;
-}
-.head__phone {
-    background-color: transparent;
-    border: 0;
-    font-size: 16px;
-    text-decoration-line: underline 2px rgb(209, 169, 84);
-}
-
 /* HEADER - end */
+
 
 /* MAIN - start */
 
 /* MAIN - end */
+
 
 /* FOOTER - start */
 
